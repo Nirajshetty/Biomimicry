@@ -1,0 +1,48 @@
+.logo {
+    padding-left: 0px;
+    padding-top: 10px;
+    z-index:2;
+}
+.logodiv{
+    width: 100%;
+    display: flex;
+    
+}
+.nav{
+    font-family: poppins;
+    font-size: 20px;
+    display: flex;
+    font-weight: 300;
+}
+#nav {
+    padding-left: 450px;
+    padding-top: 35px;
+    display: flex;
+}
+
+.aboutDropdown{
+    position: absolute;
+    width: 180px;
+    height: 137px;
+    left: 599px;
+    top: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px #E5E5E5;
+    z-index: 4;
+    text-align: left;
+    font-size: 20px;
+    font-family: poppins;
+}
+.mediaDropdown{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 869px;
+    top: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px #E5E5E5;
+    z-index: 4;
+    text-align: left;
+    font-size: 20px;
+    font-family: poppins;
+}
