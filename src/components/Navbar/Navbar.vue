@@ -6,20 +6,20 @@
       </div>
       <div class="nav" id="na">
         <b-nav-item-dropdown text="Who we are" style="margin-top: -7px;" right>
-        <b-dropdown-item href="#" >About Biomimicry Compass</b-dropdown-item>
-        <b-dropdown-item href="#">What is Biomimicry</b-dropdown-item>
-        <b-dropdown-item href="#">Our Vision and Mission</b-dropdown-item>
-        <b-dropdown-item href="#">People</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element1'">About Biomimicry Compass</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element2'">What is Biomimicry</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element3'">Our Vision and Mission</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element4'">People</b-dropdown-item>
       </b-nav-item-dropdown>
         <b-nav-item-dropdown text="What we do" style="color:white; padding-left: 120px; margin-top: -7px" right>
-        <b-dropdown-item href="#" class="navdrop" style="color:black !important">Professional Training</b-dropdown-item>
-        <b-dropdown-item href="#">Consulting and Innovation Services</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element5'" class="navdrop" style="color:black !important">Professional Training</b-dropdown-item>
+        <b-dropdown-item v-scroll-to="'#element6'">Consulting and Innovation Services</b-dropdown-item>
       </b-nav-item-dropdown>
         <a href="https://medium.com/biomimicry-compass"  style="color: white; padding-left: 120px" target="_blank"
           >Blog</a
         >
-        <router-link to="/" style="color: white; padding-left: 120px"
-          >Get In Touch</router-link
+        <a v-scroll-to="'#element7'" style="color: white; padding-left: 120px"
+          >Get In Touch</a
         >
        
        

@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <Navbar />
-      <Home class="section"/>
-      <About class="section"/>
-      <WhatIsBiomimicry class="section"/>
-      <Vision class="section"/>
-      <Founders class="section"/>
-      <Training class="section"/>
-      <Consulting class="section"/>
-      <Connect class="section"/>
+      <Home/>
+      <About id="element1"/>
+      <WhatIsBiomimicry id="element2"/>
+      <Vision id="element3"/>
+      <Founders id="element4"/>
+      <Training id="element5"/>
+      <Consulting id="element6"/>
+      <Connect id="element7"/>
     <router-view />
   </div>
 </template>
