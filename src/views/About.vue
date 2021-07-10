@@ -1,11 +1,9 @@
 <template>
   <div class="background">
-    <div>
-      <Navbar />
-    </div>
+  
     <div class="aboutDiv">
-      <h2 class="connect">About Biomimicry Compass</h2>
-      <div style="padding-left: 865px; padding-top: 50px">
+      <h2 class="connect" style="margin-left:690px">About Biomimicry Compass</h2>
+      <div style="padding-left: 805px; padding-top: 50px">
         <p
           style="
             font-size: 30px;
@@ -22,10 +20,10 @@
 Biomimicry Compass is an IIT Madras incubated company.
         </p>
       </div>
-      <div style="margin-top: -500px; padding-right: 760px">
-        <img src="@/assets/aboutnew.png" width="600p" alt="" />
+      <div style="margin-top: -455px; padding-right: 760px">
+        <img src="@/assets/aboutnew.png"  alt="" />
       </div>
-      <div style="margin-top: -300px; padding-left: 985px">
+      <div style="margin-top: -279px; padding-left: 965px">
         <img
           src="@/assets/block1.png"
           style="position:relative;z-index:-1"
@@ -37,11 +35,11 @@ Biomimicry Compass is an IIT Madras incubated company.
   </div>
 </template>
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
+
 
 export default {
   name: "CourseNew",
-  components: { Navbar },
+  components: {  },
   data() {
     return {};
   },
@@ -58,18 +56,16 @@ export default {
   font-family: poppins;
   font-size: 50px;
   color: white;
-  padding-top: 150px;
+  padding-top: 150px !important;
   font-weight: 700;
-  padding-left: 800px;
 }
 
 .background {
   background-repeat: no-repeat;
-  height: 721px !important;
+height: 718px !important;
   background-size: cover;
   background-position: center;
-  min-width: 100%;
-  min-height: 100%;
+
   background-color: #2c4e7e;
 }
 .aboutDiv {

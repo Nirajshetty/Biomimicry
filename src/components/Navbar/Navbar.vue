@@ -4,15 +4,24 @@
       <div class="logo">
         <img src="@/assets/biomimicryLOGO.png" width="300p" alt="" />
       </div>
-      <div class="nav" id="nav">
-        <router-link to="/"  style="color: white">Who We Are</router-link>
-        <p  style="color: white; padding-left: 120px;font-weight:bold;cursor:pointer;"
-          >What We Do</p>
-        <router-link to="/" style="color: white; padding-left: 120px"
-          >Blog</router-link
+      <div class="nav" id="na">
+        <b-nav-item-dropdown text="Who we are" style="margin-top: -7px;" right>
+        <b-dropdown-item href="#" >About Biomimicry Compass</b-dropdown-item>
+        <b-dropdown-item href="#">What is Biomimicry</b-dropdown-item>
+        <b-dropdown-item href="#">Our Vision and Mission</b-dropdown-item>
+        <b-dropdown-item href="#">People</b-dropdown-item>
+      </b-nav-item-dropdown>
+        <b-nav-item-dropdown text="What we do" style="color:white; padding-left: 120px; margin-top: -7px" right>
+        <b-dropdown-item href="#" class="navdrop" style="color:black !important">Professional Training</b-dropdown-item>
+        <b-dropdown-item href="#">Consulting and Innovation Services</b-dropdown-item>
+      </b-nav-item-dropdown>
+        <a href="https://medium.com/biomimicry-compass"  style="color: white; padding-left: 120px" target="_blank"
+          >Blog</a
         >
-        <p  style="color: white; padding-left: 120px;font-weight:bold;cursor:pointer;" 
-          >Get In Touch</p>
+        <router-link to="/" style="color: white; padding-left: 120px"
+          >Get In Touch</router-link
+        >
+       
        
     
       </div>

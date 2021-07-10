@@ -1,18 +1,19 @@
 <template>
-  <div class="background">
+  <div class="background3">
     <div>
-      <Navbar style="z-index:3;position:relative"/>
-       <div style="margin-top: -110px; padding-right: 1200px;z-index:2">
+       <div style="margin-top: -0px; padding-right: 1115px;z-index:2">
         <img
           src="@/assets/block4.png"
           style="position:relative;"
-          width="350px"
+          width="403px"
           alt=""
         />
+        <div style="margin-top:-130px">
           <img
             src="@/assets/bird1.png"
             style="position: relative;margin-top:-550px;padding-left:1300px"
             alt=""
+
           />
           <img
             src="@/assets/bird2.png"
@@ -44,12 +45,13 @@
             style="position: relative;margin-top:-600px;padding-left:1480px"
             alt=""
           />
+        </div>
       </div>
 
     </div>
     <div class="aboutDiv">
-      <h2 class="connect">Our Vision</h2>
-      <div style="padding-left:470px;padding-top:50px">
+      <h2 class="connect3">Our Vision</h2>
+      <div style="padding-left:470px;padding-top:20px">
         <p
           style="
             font-size: 30px;
@@ -65,8 +67,8 @@
         </p>
         
       </div>
-      <h2 class="connect" style="padding-top:50px">Our Mission</h2>
-      <div style="padding-left:510px;padding-top: 50px">
+      <h2 class="connect3" style="padding-top:50px;margin-top:0px">Our Mission</h2>
+      <div style="padding-left:510px;padding-top: 20px">
         <p
           style="
             font-size: 30px;
@@ -98,11 +100,11 @@
   </div>
 </template>
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
+
 
 export default {
   name: "CourseNew",
-  components: { Navbar },
+  components: {  },
   data() {
     return {};
   },
@@ -114,12 +116,12 @@ export default {
 
 
 
-<style >
-.connect {
+<style scoped>
+.connect3 {
   font-family: poppins;
   font-size: 50px;
   color: white;
-
+  margin-top: -10px;
   font-weight: 700;
   text-align: center;
 }
@@ -134,20 +136,20 @@ border-radius: 43.3824px;
   font-weight: 700;
   border: #06245C;
 }
-.background {
+.background3 {
   background-repeat: no-repeat;
-  height: 100% !important;
+  height: 718px !important;
   background-size: cover;
   background-position: center;
   min-width: 100%;
   min-height: 100%;
-  background-color: #2c4e7e;
+  background-color: #2c4e7e !important;
 }
 .aboutDiv {
   justify-content: center;
   text-align: center;
   position: relative;
   z-index: 3;
-  margin-top:-420px;
+  margin-top:-340px;
 }
 </style>

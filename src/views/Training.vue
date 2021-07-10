@@ -1,14 +1,13 @@
 <template>
-  <div class="background">
+  <div class="background5">
     <div>
-      <Navbar style="z-index: 3; position: relative" />
-      <div style="margin-top: -110px; padding-right: 1200px; z-index: 2">
-        <img src="@/assets/block111.png" style="position: relative" alt="" />
+      <div style="margin-top: -114px; padding-right: 850px; z-index: 2">
+        <img src="@/assets/block111.png" style="position: relative" alt="" width="450px"/>
       </div>
     </div>
     <div class="aboutDiv">
       <div style="margin-left: 50px">
-        <h2 class="connect">Professional Training</h2>
+        <h2 class="connect5">Professional Training</h2>
         <p
           style="
             font-size: 30px;
@@ -64,23 +63,24 @@
 
     <img
       src="@/assets/block112.png"
-      style="margin-right: 1087px; padding-top: 10px"
+      style="margin-top: -220px;margin-right: 1087px; z-index: 0;padding-top: 0px"
       alt=""
+      
     />
-    <div style="margin-top: -155px;padding-right:1100px">
+    <div style="margin-top: -175px;z-index: 0;position: relative;padding-right:1200px">
       <img src="@/assets/frog1.png" style="" alt="" />
     </div>
-    <div style="margin-top: -115px;padding-right:1100px">
+    <div style="margin-top: -115px;z-index: 0;position: relative;padding-right:1150px">
       <img src="@/assets/frog2.png" style="" alt="" />
     </div>
   </div>
 </template>
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
+
 
 export default {
   name: "CourseNew",
-  components: { Navbar },
+  components: {  },
   data() {
     return {};
   },
@@ -92,7 +92,7 @@ export default {
 
 
 
-<style >
+<style scoped>
 .founderpText {
   font-size: 15px;
   font-weight: 500;
@@ -107,7 +107,7 @@ export default {
   background: #06245c;
   text-align: center;
 }
-.connect {
+.connect5 {
   font-family: poppins;
   font-size: 50px;
   color: white;
@@ -128,20 +128,21 @@ button {
   font-weight: 700;
   border: #06245c;
 }
-.background {
+.background5 {
   background-repeat: no-repeat;
-  height: 1000px !important;
   background-size: cover;
+    height: 718px !important;
   background-position: center;
   min-width: 100%;
   min-height: 100%;
-  background-color: #2c4e7e;
+  background-color: #2c4e7e !important;
+  margin-top: 110px;
 }
 .aboutDiv {
   justify-content: center;
   text-align: center;
   position: relative;
-  z-index: 3;
+  z-index: 8;
   margin-top: 0px;
   display: flex;
 }

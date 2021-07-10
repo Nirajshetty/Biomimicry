@@ -1,8 +1,7 @@
 <template>
-  <div class="background">
+  <div class="background1">
     <div>
-      <Navbar style="z-index:3;position:relative"/>
-       <div style="margin-top: -150px; padding-left: 965px;z-index:2">
+       <div style="margin-top: -10px; padding-left: 965px;z-index:2">
         <img
           src="@/assets/block3.png"
           style="position:relative;"
@@ -12,7 +11,7 @@
       </div>
     </div>
     <div class="aboutDiv">
-      <h2 class="connect">What is Biomimicry?</h2>
+      <h2 class="connect1" style="padding-left:20px !important;padding-top:0px !important;">What is Biomimicry?</h2>
       <div style="padding-left: 65px; padding-top: 50px">
         <p
           style="
@@ -29,13 +28,13 @@
         </p>
         
       </div>
-      <div style="text-align:center;padding-right:1130px;padding-top:50px">
+      <div style="text-align:center;padding-right:1130px;padding-top:50px;z-index: 17 !important;position: relative;">
         <button>Know More</button>
       </div>
-      <div style="margin-top: -430px; padding-left: 700px">
-        <img src="@/assets/ecosystem.png" width="750px" alt="" />
+      <div style="margin-top: -500px; padding-left: 700px">
+        <img src="@/assets/ecosystem.png" width="650px" alt="" />
       </div>
-      <div style="margin-top: -200px; padding-right: 1170px">
+      <div style="margin-top: -213px; padding-right: 1170px">
         <img src="@/assets/block2.png" width="400px" height="250px" alt="" />
         
       </div>
@@ -43,11 +42,11 @@
   </div>
 </template>
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
+
 
 export default {
   name: "CourseNew",
-  components: { Navbar },
+  components: {  },
   data() {
     return {};
   },
@@ -59,14 +58,15 @@ export default {
 
 
 
-<style >
-.connect {
+<style scoped>
+.connect1 {
   font-family: poppins;
   font-size: 50px;
   color: white;
-  padding-top: 50px;
+  margin-top: -100px !important;
+  margin-left: 40px;
   font-weight: 700;
-  padding-left: 60px;
+  padding-left: 60px !important;
   text-align: left;
 }
 button {
@@ -80,14 +80,15 @@ border-radius: 43.3824px;
   font-weight: 700;
   border: #06245C;
 }
-.background {
+.background1 {
   background-repeat: no-repeat;
-  height: 100% !important;
   background-size: cover;
+height: 718px !important;
   background-position: center;
   min-width: 100%;
   min-height: 100%;
-  background-color: #2c4e7e;
+  margin-top: 10px !important;
+  background-color: #2c4e7e !important;
 }
 .aboutDiv {
   justify-content: center;
