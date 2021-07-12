@@ -12,18 +12,16 @@
             text-align: left;
             font-family: poppins;
             width: 600px;
-            color: #8df5ec;
+            color: white;
           "
         >
-          Biomimicry Compass provides professional training, education and consulting to enable innovation using nature’s design strategies and engineering principles. 
-
-Biomimicry Compass is an IIT Madras incubated company.
+         Biomimicry Compass provides professional training, education and consulting to enable innovation using nature’s design strategies and engineering principles.
         </p>
       </div>
-      <div style="margin-top: -455px; padding-right: 760px">
-        <img src="@/assets/aboutnew.png"  alt="" />
+      <div style="margin-top: -405px; padding-right: 760px">
+        <img src="@/assets/aboutnew.png" alt="" />
       </div>
-      <div style="margin-top: -279px; padding-left: 965px">
+      <div style="margin-top: -284px; padding-left: 965px">
         <img
           src="@/assets/block1.png"
           style="position:relative;z-index:-1"
@@ -55,7 +53,7 @@ export default {
 .connect {
   font-family: poppins;
   font-size: 50px;
-  color: white;
+  color: #06245C;
   padding-top: 150px !important;
   font-weight: 700;
 }
@@ -66,7 +64,8 @@ height: 718px !important;
   background-size: cover;
   background-position: center;
 
-  background-color: #2c4e7e;
+  background-color: #6891CA;
+
 }
 .aboutDiv {
   justify-content: center;

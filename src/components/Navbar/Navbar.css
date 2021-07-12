@@ -24,7 +24,7 @@
 }
 #na a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration:none !important;
 }
 #nav {
     padding-left: 350px;
@@ -32,6 +32,9 @@
     display: flex;
 }
 
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none !important;
+}
 .aboutDropdown{
     position: absolute;
     width: 180px;

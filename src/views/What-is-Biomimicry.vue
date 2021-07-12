@@ -21,10 +21,11 @@
             text-align: left;
             font-family: poppins;
             width: 600px;
-            color: #8df5ec;
+            color: white;
           "
         >
-          Biomimicry Compass provides professional training, education and consulting to enable innovation using nature’s design strategies and engineering principles
+          Biomimicry is a practice that learns from and translates the strategies found in nature to solve a range of human challenges. 
+
         </p>
         
       </div>
@@ -32,10 +33,10 @@
         <button>Know More</button>
       </div>
       <div style="margin-top: -500px; padding-left: 700px">
-        <img src="@/assets/ecosystem.png" width="650px" alt="" />
+        <img src="@/assets/newWIB.png" width="650px" alt="" />
       </div>
-      <div style="margin-top: -213px; padding-right: 1170px">
-        <img src="@/assets/block2.png" width="400px" height="250px" alt="" />
+      <div style="margin-top: -257px; padding-right: 1170px">
+        <img src="@/assets/visionB1.png" width="400px" height="250px" alt="" />
         
       </div>
     </div>
@@ -62,7 +63,7 @@ export default {
 .connect1 {
   font-family: poppins;
   font-size: 50px;
-  color: white;
+  color: #06245C;
   margin-top: -100px !important;
   margin-left: 40px;
   font-weight: 700;
@@ -88,7 +89,7 @@ height: 718px !important;
   min-width: 100%;
   min-height: 100%;
   margin-top: 10px !important;
-  background-color: #2c4e7e !important;
+  background-color:#6891CA!important;
 }
 .aboutDiv {
   justify-content: center;

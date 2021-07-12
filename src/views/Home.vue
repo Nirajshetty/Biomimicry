@@ -21,7 +21,7 @@
             padding-left: 1%;
           "
         >Meet your 3.8-billion-year-old teachers:
-Sharks, geckos, fungi and termites,
+Sharks, geckos, fungi and termites.
         </p>
       </div>
       <div style="text-align:center;margin-left:0px;padding-top:50px">

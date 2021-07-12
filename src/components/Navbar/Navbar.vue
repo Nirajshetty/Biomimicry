@@ -2,7 +2,8 @@
   <div class="header__component">
     <div class="logodiv">
       <div class="logo">
-        <img src="@/assets/biomimicryLOGO.png" width="300p" alt="" />
+        <img src="@/assets/biomimicryLOGO.png" width="300px" alt="" />
+        <h3 style="color:white; font-size:18px;font-family:poppins;">An IIT Madras incubated company</h3>
       </div>
       <div class="nav" id="na">
         <b-nav-item-dropdown text="Who we are" style="margin-top: -7px;" right>

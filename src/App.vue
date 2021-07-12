@@ -7,7 +7,6 @@
       <Vision id="element3"/>
       <Founders id="element4"/>
       <Training id="element5"/>
-      <Consulting id="element6"/>
       <Connect id="element7"/>
     <router-view />
   </div>
@@ -30,7 +29,6 @@
 import Navbar from "@/components/Navbar/Navbar.vue";
 import About from "@/views/About.vue";
 import Connect from "@/views/Connect.vue";
-import Consulting from "@/views/Consulting.vue";
 import Founders from "@/views/Founders.vue";
 import Home from "@/views/Home.vue";
 import Training from "@/views/Training.vue";
@@ -42,7 +40,6 @@ export default {
     Navbar,
     About,
     Connect,
-    Consulting,
     Founders,
     Home,
     Training,

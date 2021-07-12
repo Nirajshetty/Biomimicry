@@ -2,7 +2,12 @@
   <div class="background5">
     <div>
       <div style="margin-top: -114px; padding-right: 850px; z-index: 2">
-        <img src="@/assets/block111.png" style="position: relative" alt="" width="450px"/>
+        <img
+          src="@/assets/block111.png"
+          style="position: relative"
+          alt=""
+          width="450px"
+        />
       </div>
     </div>
     <div class="aboutDiv">
@@ -15,7 +20,7 @@
             text-align: left;
             font-family: poppins;
             width: 470px;
-            color: #8df5ec;
+            color: white;
             padding-top: 50px;
           "
         >
@@ -29,58 +34,102 @@
             text-align: left;
             font-family: poppins;
             width: 470px;
-            color: #8df5ec;
+            color: white;
           "
         >
           Our Programsand Workshops are named for the organisms and natural
           systems that inspire us.
         </p>
       </div>
-      <div style="padding-left:0px">
-        <div style="margin-top:-100px;padding-left:700px">
-          <img src="@/assets/training1.png"  width="250px" alt="" />
-          <div style="text-align:center;margin-left:10px;margin-top:-70px;z-index:9">
-        <button>Know More</button>
-      </div>
-      <h6 style="color:white;padding-top:40px;font-size:20px;font-family:poppins;">JellyFish Workshop</h6>
+      <div style="padding-left: 0px">
+        <div style="margin-top: -155px; padding-left: 700px">
+          <img src="@/assets/training1.png" width="210px" alt="" />
+          <div
+            style="
+              text-align: center;
+              margin-left: 10px;
+              margin-top: 10px;
+              z-index: 9;
+            "
+          >
+            <h6 style="color: white; font-size: 20px; font-family: poppins">
+              JellyFish Workshop
+            </h6>
+            <button>Know More</button>
+          </div>
         </div>
-        <div style="margin-top:-80px;padding-left:100px">
-          <img src="@/assets/training2.png"  width="250px" alt="" />
-          <div style="text-align:center;margin-left:10px;margin-top:-70px;z-index:9">
-        <button>Know More</button>
-      </div>
-      <h6 style="color:white;padding-top:40px;font-size:20px;font-family:poppins;">Termite Mound Workshop</h6>
+        <div style="margin-top: -80px; padding-left: 100px">
+          <img src="@/assets/training2.png" width="210px" alt="" />
+          <div
+            style="
+              text-align: center;
+              margin-left: 10px;
+              margin-top: 10px;
+              z-index: 9;
+            "
+          >
+            <h6 style="color: white; font-size: 20px; font-family: poppins">
+              Termite Mound Workshop
+            </h6>
+            <button>Know More</button>
+          </div>
         </div>
-        <div style="margin-top:-245px;padding-left:700px">
-          <img src="@/assets/training3.png" width="250px" alt="" />
-          <div style="text-align:center;margin-left:10px;margin-top:-70px;z-index:9">
-        <button>Know More</button>
-      </div>
-      <h6 style="color:white;padding-top:40px;font-size:20px;font-family:poppins;">Cicada Workshop</h6>
+        <div style="margin-top: -145px; padding-left: 700px">
+          <img src="@/assets/training3.png" width="210px" alt="" />
+
+          <div
+            style="
+              text-align: center;
+              margin-left: 10px;
+              margin-top: 10px;
+              z-index: 9;
+            "
+          >
+            <h6 style="color: white; font-size: 20px; font-family: poppins">
+              Cicada Workshop
+            </h6>
+            <button>Know More</button>
+          </div>
         </div>
       </div>
     </div>
 
     <img
-      src="@/assets/block112.png"
-      style="margin-top: -220px;margin-right: 1087px; z-index: 0;padding-top: 0px"
+      src="@/assets/blockTraining.png"
+      style="
+        margin-top: -260px;
+        margin-right: 1110px;
+        z-index: 0;
+        padding-top: 0px;
+      "
       alt=""
-      
     />
-    <div style="margin-top: -175px;z-index: 0;position: relative;padding-right:1200px">
+    <div
+      style="
+        margin-top: -175px;
+        z-index: 0;
+        position: relative;
+        padding-right: 1200px;
+      "
+    >
       <img src="@/assets/frog1.png" style="" alt="" />
     </div>
-    <div style="margin-top: -115px;z-index: 0;position: relative;padding-right:1150px">
+    <div
+      style="
+        margin-top: -115px;
+        z-index: 0;
+        position: relative;
+        padding-right: 1150px;
+      "
+    >
       <img src="@/assets/frog2.png" style="" alt="" />
     </div>
   </div>
 </template>
 <script>
-
-
 export default {
   name: "CourseNew",
-  components: {  },
+  components: {},
   data() {
     return {};
   },
@@ -110,7 +159,7 @@ export default {
 .connect5 {
   font-family: poppins;
   font-size: 50px;
-  color: white;
+  color: #06245c;
   margin-top: -100px;
   font-weight: 700;
   text-align: left;
@@ -119,7 +168,7 @@ export default {
 }
 button {
   width: 143.76px;
-  height: 45px;
+  height: 35px;
   background: #ffffff;
   border-radius: 43.3824px;
   color: #0e0643;
@@ -131,11 +180,11 @@ button {
 .background5 {
   background-repeat: no-repeat;
   background-size: cover;
-    height: 718px !important;
+  height: 718px !important;
   background-position: center;
   min-width: 100%;
   min-height: 100%;
-  background-color: #2c4e7e !important;
+  background-color: #6891ca !important;
   margin-top: 110px;
 }
 .aboutDiv {

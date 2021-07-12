@@ -45,9 +45,10 @@
       <div style="display: flex; justify-content: center; padding-top: 150px;text-align:center;">
         <div class="founderDiv">
           <img
-            src="@/assets/founder.png"
-            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:40px;"
-            width="150px"
+            src="@/assets/f1.png"
+            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:13px;"
+            width="187px"
+            height="200px"
             alt=""
           />
           <h2 style="font-size:25px;font-weight:500;color:white;font-family:poppins">Mrinalini</h2>
@@ -57,9 +58,10 @@
         </div>
         <div class="founderDiv" style="margin-left: 30px">
           <img
-            src="@/assets/founder.png"
-            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:40px;"
-            width="150px"
+            src="@/assets/f2.png"
+            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:20px;"
+            width="187px"
+            height="200px"
             alt=""
           />
           <h2 style="font-size:25px;font-weight:500;color:white;font-family:poppins">Shivakumar</h2>
@@ -67,9 +69,10 @@
         </div>
         <div class="founderDiv" style="margin-left: 30px">
           <img
-            src="@/assets/founder.png"
-            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:40px;"
-            width="150px"
+            src="@/assets/f3.png"
+            style="justify-content:center;text-align:center;border-radius:150px;margin-top:-70px;padding-bottom:25px;"
+            width="187px"
+            height="200px"
             alt=""
           />
           <h2 style="font-size:25px;font-weight:500;color:white;font-family:poppins">Shiva</h2>
@@ -77,9 +80,10 @@
         </div>
         <div class="founderDiv" style="margin-left: 30px">
           <img
-            src="@/assets/founder.png"
-            style="justify-content:center;text-align:center;padding-bottom:40px;border-radius:150px;margin-top:-70px"
-            width="150px"
+            src="@/assets/f4.png"
+            style="justify-content:center;text-align:center;padding-bottom:25px;border-radius:150px;margin-top:-70px"
+            width="187px"
+            height="200px"
             alt=""
           />
           <h2 style="font-size:25px;font-weight:500;color:white;font-family:poppins">Satya</h2>
@@ -92,7 +96,7 @@
   
           <img
             src="@/assets/Vectorblock6.png"
-            style="margin-right:900px;margin-top:-5px"
+            style="margin-right:900px;margin-top:-20px"
             width="400px"
             alt=""
           />
@@ -131,8 +135,8 @@ width: 280px;
 padding-left: 30px;
 }
 .founderDiv {
-  width: 312px;
-  height: 214px;
+  width: 278px;
+  height: 230px;
   background: #06245c;
 text-align: center;
 border-radius: 50px;
@@ -140,7 +144,7 @@ border-radius: 50px;
 .connect4 {
   font-family: poppins;
   font-size: 50px;
-  color: white;
+  color: #06245C;
   margin-top: -100px;
   font-weight: 700;
   text-align: center;
@@ -161,7 +165,7 @@ button {
 height: 740px !important;
   background-size: cover;
   background-position: center;
-  background-color: #2c4e7e;
+  background-color: #6891CA !important;
   margin-top: 110px;
 }
 .aboutDiv {
