@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Navbar />
       <Home/>
       <About id="element1"/>
       <WhatIsBiomimicry id="element2"/>
@@ -26,7 +25,6 @@
 }
 </style>
 <script>
-import Navbar from "@/components/Navbar/Navbar.vue";
 import About from "@/views/About.vue";
 import Connect from "@/views/Connect.vue";
 import Founders from "@/views/Founders.vue";
@@ -37,7 +35,6 @@ import WhatIsBiomimicry from "@/views/What-is-Biomimicry.vue";
 export default {
   name:'app',
   components: {
-    Navbar,
     About,
     Connect,
     Founders,

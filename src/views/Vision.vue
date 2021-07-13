@@ -111,7 +111,7 @@
       </div>
       </div>
       <div style="margin-top: -140px; padding-right: 1170px">
-        <img src="@/assets/path.png" width="1400px" height="250px" alt="" />
+        <img src="@/assets/path.png" width="1400px" style="position:relative;z-index:9;" height="250px" alt="" />
          <img
             src="@/assets/vision_trees.png"
             style="position: relative;margin-top:-720px;" width="350px"

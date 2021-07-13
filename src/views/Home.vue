@@ -6,7 +6,7 @@
         'url(https://s3-alpha-sig.figma.com/img/00ef/8f82/66de6b8a2d58b6507a9822d14af5f25d?Expires=1626652800&Signature=CpaKqYlU3tgA3TFJ7EnvkB8VG8WD-l1lzFy69ht5FbMNJAB0KjeG-fzSAeOLLwukHDzLKhQucvDKkfJ7to9LMupZUKGeperaxkw8VhsUBd5a-N4RQiOpP1pdUp-ehPnXqVRHeViSvn9t6JLn6FEdZwE2ufgn4Alh8w2XFmWBvGkbSYRr1mFvLZpIGfhwpb4WpMXzqGEySnkWSFkpdHp~UxlIcmRIHxzNi-FkZICbDmP19dRySSIHgmzSAgTJKFhRw5njGwVbVno5kd7KFsb3jyp5xqBHICELPpME3RgtHwmsWFFKjEiVrPayFPpB1mme4q-0k8ykOAwwezkTuHo5ow__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA)',
     }"
   >
-    
+        <Navbar />
     <div>
 
       <div style="text-align:center;margin-left:355px;padding-top:150px">
@@ -32,10 +32,10 @@ Sharks, geckos, fungi and termites.
 </template>
 <script>
 
-
+import Navbar from "@/components/Navbar/Navbar.vue";
 export default {
   name: "CourseNew",
-  components: {  },
+  components: { Navbar },
   data() {
     return {};
   },
@@ -64,7 +64,7 @@ export default {
 .background {
   background-repeat: no-repeat;
   background-size: cover;
-  height: 622px !important;
+  height: 722px !important;
   background-position: center;
   min-width: 100%;
   min-height: 100%;

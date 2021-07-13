@@ -2,7 +2,7 @@
   <div class="header__component">
     <div class="logodiv">
       <div class="logo">
-        <img src="@/assets/biomimicryLOGO.png" width="300px" alt="" />
+        <img src="@/assets/newlogo.png" width="300px" alt="" />
         <h3 style="color:white; font-size:18px;font-family:poppins;">An IIT Madras incubated company</h3>
       </div>
       <div class="nav" id="na">
@@ -14,12 +14,11 @@
       </b-nav-item-dropdown>
         <b-nav-item-dropdown text="What we do" style="color:white; padding-left: 120px; margin-top: -7px" right>
         <b-dropdown-item v-scroll-to="'#element5'" class="navdrop" style="color:black !important">Professional Training</b-dropdown-item>
-        <b-dropdown-item v-scroll-to="'#element6'">Consulting and Innovation Services</b-dropdown-item>
       </b-nav-item-dropdown>
         <a href="https://medium.com/biomimicry-compass"  style="color: white; padding-left: 120px" target="_blank"
           >Blog</a
         >
-        <a v-scroll-to="'#element7'" style="color: white; padding-left: 120px"
+        <a v-scroll-to="'#element7'" style="color: white; padding-left: 120px;cursor:pointer"
           >Get In Touch</a
         >
        
