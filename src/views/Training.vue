@@ -278,7 +278,7 @@
       <div style="display: flex">
         <div style="width: 10%">
           <img
-            src="@/assets/workshop1.png"
+            src="@/assets/workshop2.png"
             style="padding-top: 200px; padding-left: 60px"
             width="370px"
             alt=""
@@ -427,7 +427,7 @@
       <div style="display: flex">
         <div style="width: 10%">
           <img
-            src="@/assets/workshop1.png"
+            src="@/assets/workshop3.png"
             style="padding-top: 200px; padding-left: 60px"
             width="370px"
             alt=""
