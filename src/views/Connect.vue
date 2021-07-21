@@ -1,7 +1,7 @@
 <template>
   <div class="background7">
     <div>
-      <div style="margin-top: -112px; padding-right: 1435px; z-index: 2">
+      <div style="margin-top: -125px; padding-right: 1435px; z-index: 2">
         <img
           src="@/assets/blockTraining2.png"
           style="position: relative"
@@ -24,19 +24,10 @@
           alt=""
         />
       </div>
-      <div style="margin-top: -403.5px; padding-right: 1205px; z-index: 2">
+      <div style="margin-top: -408.5px; padding-right: 1205px; z-index: 2">
         <img src="@/assets/blockInside.png" style="position: relative" alt="" />
       </div>
-      <h2
-        style="
-          font-size: 50px;
-          color: #0e0643e5;
-          margin-top: -200px;
-          font-family: poppins;
-        "
-      >
-        Stay Connected
-      </h2>
+
     </div>
     <div class="aboutDiv">
       <div>
@@ -57,12 +48,11 @@
           consulting to enable innovation using nature’s design strategies and
           engineering principles
         </p>
-        <div style="display:flex;margin-left:20px;padding-top:30px">
+        <div style="display:flex;margin-left:0px;padding-top:30px">
           <img src="@/assets/social1.png" style="position: relative;padding-right:20px" alt="" />
           <img src="@/assets/social2.png" style="position: relative;padding-right:20px" alt="" />
           <img src="@/assets/social3.png" style="position: relative;padding-right:20px" alt="" />
           <img src="@/assets/social4.png" style="position: relative;padding-right:20px" alt="" />
-          <img src="@/assets/social5.png" style="position: relative" alt="" />
         </div>
       </div>
       <div style="padding-left: 300px">
@@ -93,7 +83,7 @@
 
       <p
         style="
-          color:#FFFFFF;
+          color:rgba(255, 255, 255, 1);
           font-size: 20px;
           font-family: poppins;
           font-weight: 300;
@@ -185,6 +175,6 @@ button {
   position: relative;
   z-index: 3;
   display: flex;
-  margin-top: -350px;
+  margin-top: -470px;
 }
 </style>

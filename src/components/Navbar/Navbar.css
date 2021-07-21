@@ -37,8 +37,6 @@ width: 100px;
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: .25rem 1.5rem;
-    clear: both;
     font-weight: 400;
     color: #06245c!important;
     text-align: inherit;
@@ -61,40 +59,7 @@ width: 100px;
 
 
 
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-/* Styles */
-.logodiv{
-    width: 50px;
-}
-}
-
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1224px) {
-
-}
-
-/* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
-
-}
-
-/* iPhone 4 ----------- */
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 600px) {
     .classTitle{
         color: #06245c;
         font-size: 14px; 
@@ -104,7 +69,7 @@ and (min-width : 1824px) {
         width: 220px;
     }
     .navbar{
-        padding-right: 90px;
+        padding-right: 60px;
     }
    .navToggle{
        margin-right: -50px;
@@ -112,11 +77,10 @@ and (min-width : 1824px) {
    .dropdown-menu.show {
     display: block;
     margin-left: 0px;
-}
-.dropdown-item {
+   }
+  .dropdown-item {
     display: block;
     width: 100%;
-    padding: .25rem 1.5rem;
     clear: both;
     font-weight: 400;
     color: #06245c !important;
@@ -124,5 +88,11 @@ and (min-width : 1824px) {
     white-space: nowrap;
     background-color: transparent;
     border: 0;
+ }
+ .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: -50px;
+ }
 }
-  }
